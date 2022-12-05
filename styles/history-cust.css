@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+/* start header */
+
+header {
+  height: 10vh;
+  width: 100%;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid grey;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+.brand-logo {
+  height: 40px;
+  width: 50px;
+}
+
+.brand-coffeeshop h3 {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.helper {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.helper img {
+  width: 30px;
+  height: 30px;
+}
+
+/* end header */
+
+/* start main */
+
+main {
+  height: 105vh;
+  width: 100%;
+  padding: 20px 100px 20px 100px;
+  background-image: url("../assets/profile\ assets/background.png");
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: brown; */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  height: 12vh;
+  /* background-color: antiquewhite; */
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.history-cust {
+  width: 100%;
+  height: 80vh;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+}
+
+.first-menu {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 180px;
+  width: 30%;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);
+  margin: 30px 30px 15px 30px;
+}
+
+.first-menu img {
+  border-radius: 50%;
+}
+
+.title-product {
+  text-align: start;
+  margin-left: 10px;
+}
+
+.title-product h6 {
+  color: #6a4029;
+}
+
+/* end main */
+
+/* start footer */
+
+footer {
+  height: 40vh;
+  width: 100%;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+}
+
+.brand-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.brand-logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-footer img {
+  height: 50px;
+  width: 50px;
+}
+
+.brand-definition {
+  height: auto;
+}
+
+.brand-social {
+  height: 3rem;
+}
+
+.brand-copyright {
+  height: auto;
+}
+
+.info {
+  display: flex;
+  width: 50%;
+  height: 15vh;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.info-product {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-product .left-product {
+  width: 50%;
+}
+
+.info-engage {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-engage .left-engage {
+  width: 50%;
+}
+
+/* end footer */
