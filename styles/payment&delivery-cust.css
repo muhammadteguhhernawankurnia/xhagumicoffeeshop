@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+/* start header */
+
+header {
+  height: 10vh;
+  width: 100%;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid grey;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+.brand-logo {
+  height: 40px;
+  width: 50px;
+}
+
+.brand-coffeeshop h3 {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.helper {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.helper img {
+  width: 30px;
+  height: 30px;
+}
+
+/* end header */
+
+/* start main */
+
+/* .background-content img {
+  width: 100%;
+  background-size: cover;
+} */
+
+main {
+  height: 105vh;
+  width: 100%;
+  padding: 20px 100px 20px 100px;
+  background-image: url("../assets/profile\ assets/background.png");
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: brown; */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* start left content */
+
+.left-content {
+  width: 50%;
+}
+
+.left-content h1 {
+  color: #ffffff;
+}
+
+.left-content .card-order-summary {
+  padding: 20px 10px 10px 20px;
+  width: 100%;
+  height: 75vh;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.left-content .card-order-summary .main-order-summary {
+  /* background-color: beige; */
+  width: 100%;
+  height: 20vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left-content .card-order-summary .main-order-summary .main-order-title {
+  /* background-color: coral; */
+  width: 60%;
+  height: 18vh;
+  padding: 10px;
+  text-align: start;
+}
+
+.bottom-main-order {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-main-order .left-bottom-main-order {
+  /* background-color: darkslategrey; */
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.bottom-main-order .right-bottom-main-order {
+  /* background-color: darkseagreen; */
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.total-payment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* right content */
+.right-content h2 {
+  color: #ffffff;
+}
+
+.right-content .card-order-summary {
+  padding: 20px 10px 10px 20px;
+  width: 100%;
+  height: 32vh;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.right-content .card-order-summary-bottom {
+  padding: 20px 10px 10px 20px;
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.btn-confirm-pay {
+  background-color: #6a4029;
+  color: white;
+  padding: 10px 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+/* end main */
+
+/* start footer */
+
+footer {
+  height: 40vh;
+  width: 100%;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+}
+
+.brand-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.brand-logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-footer img {
+  height: 50px;
+  width: 50px;
+}
+
+.brand-definition {
+  height: auto;
+}
+
+.brand-social {
+  height: 3rem;
+}
+
+.brand-copyright {
+  height: auto;
+}
+
+.info {
+  display: flex;
+  width: 50%;
+  height: 15vh;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.info-product {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-product .left-product {
+  width: 50%;
+}
+
+.info-engage {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-engage .left-engage {
+  width: 50%;
+}
+
+/* end footer */
